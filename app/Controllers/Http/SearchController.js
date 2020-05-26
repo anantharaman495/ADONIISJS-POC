@@ -21,7 +21,8 @@ class SearchController {
         //search on OMDB API    
         const searchString = request.input('search');
         console.log(omdbkey + '<<-->>' + searchString)
-        const results = await axios.get(`http://www.omdbapi.com/?apikey=${omdbkey}&s=${searchString}`)
+        const results = await axios.get(`http://www.omdbapi.com/?apikey=${omdbkey}&s=${searchString}`);
+
         console.log(results)
         return view.render('pages/search-result', {
             results: results.data.Search
