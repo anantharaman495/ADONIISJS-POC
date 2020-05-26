@@ -31,6 +31,6 @@ adonis migration:run
 ```
 
 ### To Use the above Repo
-  Install AdonisJs
-  Install the NPM Dependencies
-  Signup for OMDBAPI and Add the KEY in .env file
+  Install AdonisJs.<br>
+  Install the NPM Dependencies.<br>
+  Signup for OMDBAPI and Add the KEY in .env file.
