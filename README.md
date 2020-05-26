@@ -29,3 +29,8 @@ Run the following command to run startup migrations.
 ```js
 adonis migration:run
 ```
+
+### To Use the above Repo
+  Install AdonisJs
+  Install the NPM Dependencies
+  Signup for OMDBAPI and Add the KEY in .env file
